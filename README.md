@@ -52,6 +52,12 @@ Specifically, the command to add homebrew to PATH is important.
 3. Run `sui client address` to verify that it works
 ![sui client address](images/sui-client-address.png)
 
+## Share CLI wallet with Browser Wallet
+After running the sui binary, there exists a public private keypair in `~/.sui` that the CLI will use whenever you want to interact with the blockchain. We want to create a browser wallet and share the keypair between them. This will make it easier to interact with your DApp later.
+
+We recommend that you watch the following video to learn how the CLI works:
+[![IMAGE ALT TEXT](http://img.youtube.com/vi/Ypmjzy_QRM8/0.jpg)](http://www.youtube.com/watch?v=Ypmjzy_QRM8 "Video Title")
+
 
 ## More Resources
 
