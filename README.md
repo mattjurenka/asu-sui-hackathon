@@ -54,9 +54,19 @@ Specifically, the command to add homebrew to PATH is important.
 
 ## Share CLI wallet with Browser Wallet
 After running the sui binary, there exists a public private keypair in `~/.sui` that the CLI will use whenever you want to interact with the blockchain. We want to create a browser wallet and share the keypair between them. This will make it easier to interact with your DApp later.
+1. Install a Sui wallet. We recommend [Ethos Wallet](https://chromewebstore.google.com/detail/ethos-sui-wallet/mcbigmjiafegjnnogedioegffbooigli?pli=1)
+2. Go through the install instructions to create a new wallet, then copy your "mnemonic" or "recovery phrase" from the extension. In Ethos wallet this can be done via the settings icon in the top right, then "security" and "view recovery phrase"
+3. Import the mnemonic into your sui CLI with the following command: `sui keytool import "<recovery phrase here>" ed25519`
+4. Check that the import worked with `sui client addresses`, and note the alias associated with the wallet address of your browser.
+5. Then change to the new wallet with `sui client switch --address <new alias>`
+![import process](images/import.png)
+![verify-swap](images/verify-swap.png)
+
+
+IMPORTANT! Your 16 word "mnemonic" is equivalent to your Private key. If you share either your mnemonic or your private key with anyone, they will be able to control your wallet and take their money. This is not so important in this hackathon because we are not dealing with real money, but if you ever decide to put any real value onto a blockchain wallet, you need to be extremely careful with your private key and mnemonic.
 
 We recommend that you watch the following video to learn how the CLI works:
-[![IMAGE ALT TEXT](http://img.youtube.com/vi/Ypmjzy_QRM8/0.jpg)](http://www.youtube.com/watch?v=Ypmjzy_QRM8 "Video Title")
+[Sui CLI Walkthrough](https://www.youtube.com/watch?v=Ypmjzy_QRM8)
 
 
 ## More Resources
