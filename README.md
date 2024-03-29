@@ -80,6 +80,12 @@ After running the sui binary, there exists a public private keypair in `~/.sui` 
 
 We recommend that you watch the following video to learn how the CLI works: [Sui CLI Walkthrough](https://www.youtube.com/watch?v=Ypmjzy_QRM8)
 
+## Set up Sui Move 
+- Install a Code Editor (VS Code Highly recommended): https://code.visualstudio.com/download
+- Install Move Analyzer from VS Code Extensions: https://marketplace.visualstudio.com/items?itemName=move.move-analyzer
+- Install the following for Syntax Highlighting: ```cargo install --git https://github.com/move-language/move move-analyzer --branch sui-move --features "address32"```
+- More information can be found here: https://docs.sui.io/guides/developer/getting-started/sui-environment
+
 
 ## More Resources
 
