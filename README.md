@@ -79,16 +79,14 @@ We recommend that you watch the following video to learn how the CLI works: [Sui
 
 ## More Resources
 
-- Sui Fullstack Tutorial - https://www.youtube.com/watch?v=FBJjgZiia6g&list=PLvrJ-5wsCykchZnZBIxj1NB_gwZqkfpLz
+- <a href="https://www.youtube.com/watch?v=FBJjgZiia6g&list=PLvrJ-5wsCykchZnZBIxj1NB_gwZqkfpLz">Sui Fullstack Tutorial</a>
+- <a href="https://docs.sui.io/guides">Sui Docs</a>
+- <a href="https://sdk.mystenlabs.com/dapp-kit">Sui Dapp Kit</a>
 
-## Useful libraries and tools
-
-Shinami Gas station
-ZKLogin ()
-
-Wallets
-Ethos Wallet
-Suiet wallet
+## Wallets
+- <a href="https://chromewebstore.google.com/detail/ethos-sui-wallet/mcbigmjiafegjnnogedioegffbooigli">Ethos Wallet</a>
+- <a href="https://chromewebstore.google.com/detail/suiet-sui-wallet/khpkpbbcccdmmclmpigdgddabeilkdpd">Suiet Wallet</a>
+- <a href="https://chromewebstore.google.com/detail/sui-wallet/opcgpfmipidbgpenhmajoajpbobppdil">Official Sui Wallet</a>
 
 ## Schedule
 <img width="853" alt="Screenshot 2024-03-29 at 2 18 19 PM" src="https://github.com/mattjurenka/asu-sui-hackathon/assets/93841932/72136db5-3367-493b-bf55-9e976d16ad11">
