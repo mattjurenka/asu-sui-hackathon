@@ -61,7 +61,7 @@ We are going to use Homebrew to install the package both on Mac and Windows. If 
 3. Run `sui client address` to verify that it works
 ![sui client address](images/sui-client-address.png)
 
-## Share CLI wallet with Browser Wallet
+### Share CLI wallet with Browser Wallet
 After running the sui binary, there exists a public private keypair in `~/.sui` that the CLI will use whenever you want to interact with the blockchain. We want to create a browser wallet and share the keypair between them. This will make it easier to interact with your DApp later.
 1. Install a Sui wallet. We recommend [Ethos Wallet](https://chromewebstore.google.com/detail/ethos-sui-wallet/mcbigmjiafegjnnogedioegffbooigli?pli=1)
 
