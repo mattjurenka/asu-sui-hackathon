@@ -44,36 +44,44 @@ We strongly recommend that you use either Linux or Mac to develop your project. 
 We are going to use Homebrew to install the package both on Mac and Windows. If you are only used to using homebrew on Mac and not Linux, thats OK, it works the same on both platforms.
 
 1. Run the install command from the [Homebrew website](https://brew.sh/)
+
 2. Run the commands in the resulting "Next Steps" text from the brew install to ensure you have proper dependencies. They may be different on each computer, but on my machine it looks like this: ![next steps](images/next-steps.png)
-Specifically, the command to add homebrew to PATH is important.
+
+**Specifically, the command to add homebrew to PATH is important.**
+
 1. Run `brew install sui`
+
 2. The first time you run Sui client, you will be prompted for a first time setup. Enter "y" to connect to a full node server, just press enter again to default to devnet, and finally enter 0 to use the Ed25519 key scheme.
 ![client init](images/init-client.png)
+
 3. Run `sui client address` to verify that it works
 ![sui client address](images/sui-client-address.png)
 
 ## Share CLI wallet with Browser Wallet
 After running the sui binary, there exists a public private keypair in `~/.sui` that the CLI will use whenever you want to interact with the blockchain. We want to create a browser wallet and share the keypair between them. This will make it easier to interact with your DApp later.
 1. Install a Sui wallet. We recommend [Ethos Wallet](https://chromewebstore.google.com/detail/ethos-sui-wallet/mcbigmjiafegjnnogedioegffbooigli?pli=1)
+
 2. Go through the install instructions to create a new wallet, then copy your "mnemonic" or "recovery phrase" from the extension. In Ethos wallet this can be done via the settings icon in the top right, then "security" and "view recovery phrase"
+
 3. Import the mnemonic into your sui CLI with the following command: `sui keytool import "<recovery phrase here>" ed25519`
+
 4. Check that the import worked with `sui client addresses`, and note the alias associated with the wallet address of your browser.
+
 5. Then change to the new wallet with `sui client switch --address <new alias>`
 ![import process](images/import.png)
 ![verify-swap](images/verify-swap.png)
 
 
-IMPORTANT! Your 16 word "mnemonic" is equivalent to your Private key. If you share either your mnemonic or your private key with anyone, they will be able to control your wallet and take their money. This is not so important in this hackathon because we are not dealing with real money, but if you ever decide to put any real value onto a blockchain wallet, you need to be extremely careful with your private key and mnemonic.
+**IMPORTANT! Your 16 word "mnemonic" is equivalent to your Private key. If you share either your mnemonic or your private key with anyone, they will be able to control your wallet and take their money. This is not so important in this hackathon because we are not dealing with real money, but if you ever decide to put any real value onto a blockchain wallet, you need to be extremely careful with your private key and mnemonic.**
 
 We recommend that you watch the following video to learn how the CLI works: [Sui CLI Walkthrough](https://www.youtube.com/watch?v=Ypmjzy_QRM8)
 
 
 ## More Resources
 
-- Sui Fullstack Tutorial
+- Sui Fullstack Tutorial - https://www.youtube.com/watch?v=FBJjgZiia6g&list=PLvrJ-5wsCykchZnZBIxj1NB_gwZqkfpLz
 
 ## Useful libraries and tools
-
 
 Shinami Gas station
 ZKLogin ()
@@ -83,3 +91,5 @@ Ethos Wallet
 Suiet wallet
 
 ## Schedule
+<img width="853" alt="Screenshot 2024-03-29 at 2 18 19 PM" src="https://github.com/mattjurenka/asu-sui-hackathon/assets/93841932/72136db5-3367-493b-bf55-9e976d16ad11">
+
