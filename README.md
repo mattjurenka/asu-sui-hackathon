@@ -28,7 +28,11 @@ We will be awarding $5000 in prizes total, given out in cash. For a project to b
 ## Judges
 Hackathon prizes will be awarded based on the rankings of our judges:
 - Dragan Boscovic, head of ASU Blockchain Research Lab
-- Swathi Punathumkandi, Professor at SCAI, PhD in Blockchain 
+- Swathi Punathumkandi, Professor at SCAI, PhD in Blockchain
+
+## Support
+We will be answering questions about the event + developer support in the discord:
+- https://discord.gg/AukBGd6pK3
 
 ## Project Ideas
 Don't have any ideas for a project? We have two guides that you can follow to have a skeleton that you can expand upon.
