@@ -65,8 +65,7 @@ After running the sui binary, there exists a public private keypair in `~/.sui` 
 
 IMPORTANT! Your 16 word "mnemonic" is equivalent to your Private key. If you share either your mnemonic or your private key with anyone, they will be able to control your wallet and take their money. This is not so important in this hackathon because we are not dealing with real money, but if you ever decide to put any real value onto a blockchain wallet, you need to be extremely careful with your private key and mnemonic.
 
-We recommend that you watch the following video to learn how the CLI works:
-[Sui CLI Walkthrough](https://www.youtube.com/watch?v=Ypmjzy_QRM8)
+We recommend that you watch the following video to learn how the CLI works: [Sui CLI Walkthrough](https://www.youtube.com/watch?v=Ypmjzy_QRM8)
 
 
 ## More Resources
@@ -75,8 +74,11 @@ We recommend that you watch the following video to learn how the CLI works:
 
 ## Useful libraries and tools
 
+
 Shinami Gas station
-ZKLogin
+ZKLogin ()
+
+Wallets
 Ethos Wallet
 Suiet wallet
 
