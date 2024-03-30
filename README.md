@@ -84,7 +84,9 @@ We recommend that you watch the following video to learn how the CLI works: [Sui
 If you are running into issues such as ```npm: command not found```, you will need to download javascript.
 
 - Download <a href="https://nodejs.org/en/">Nodejs</a>
-- Download <a href="curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | bash">Node Version Manager (nvm)</a> for Ubuntu/MacOS
+
+- Download Node Version Manager (nvm) for Ubuntu/MacOS: ```curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | bash```
+
 - Run the following command: 
 ```
 export NVM_DIR="$HOME/.nvm"
