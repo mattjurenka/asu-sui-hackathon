@@ -80,7 +80,7 @@ After running the sui binary, there exists a public private keypair in `~/.sui` 
 
 We recommend that you watch the following video to learn how the CLI works: [Sui CLI Walkthrough](https://www.youtube.com/watch?v=Ypmjzy_QRM8)
 
-### Optional: Setup Javascript
+## Optional: Setup Javascript
 If you are running into issues such as ```npm: command not found```, you will need to download javascript.
 
 - Download <a href="https://nodejs.org/en/">Nodejs</a>
@@ -96,11 +96,11 @@ export NVM_DIR="$HOME/.nvm"
 
 - Check nvm has been downloaded correctly: ```nvm --version```
 
-## Get a Node version (we will be using 16)
+### Get a Node version (we will be using 16)
 - ```nvm install 16```
 - ```nvm use 16```
 
-## Set up Sui Move in IDE
+### Set up Sui Move in IDE
 - Install a Code Editor (VS Code Highly recommended): https://code.visualstudio.com/download
 - Install Move Analyzer from VS Code Extensions: https://marketplace.visualstudio.com/items?itemName=move.move-analyzer
 - Install the following for Syntax Highlighting: 
