@@ -40,7 +40,10 @@ Don't have any ideas for a project? We have two guides that you can follow to ha
 - [Basic Non Fungible Token Skeleton (NFTs)](nft-project/nft.md)
 - [Hack Monitoring and Alerting]()
 
-## Dev Environment Setup
+## 3/29 - Sui Workshop
+
+
+## 1. Dev Environment Setup
 
 We strongly recommend that you use either Linux or Mac to develop your project. If you are using Windows, please consider using either [Windows Subsystem for Linux](https://learn.microsoft.com/en-us/windows/wsl/install) or [Virtualbox](https://www.virtualbox.org/wiki/Downloads) to install Ubuntu and continue using the Linux instructions. Development on Windows is generally not recommended.
 
@@ -61,7 +64,7 @@ We are going to use Homebrew to install the package both on Mac and Windows. If 
 3. Run `sui client address` to verify that it works
 ![sui client address](images/sui-client-address.png)
 
-### Share CLI wallet with Browser Wallet
+### 2. Share CLI wallet with Browser Wallet
 After running the sui binary, there exists a public private keypair in `~/.sui` that the CLI will use whenever you want to interact with the blockchain. We want to create a browser wallet and share the keypair between them. This will make it easier to interact with your DApp later.
 1. Install a Sui wallet. We recommend [Ethos Wallet](https://chromewebstore.google.com/detail/ethos-sui-wallet/mcbigmjiafegjnnogedioegffbooigli?pli=1)
 
@@ -110,6 +113,10 @@ export NVM_DIR="$HOME/.nvm"
 
 - More information can be found here: https://docs.sui.io/guides/developer/getting-started/sui-environment
 
+## 3. Counter dApp Example
+- 1. Create a new folder in VSCode
+- 2. Run the following command: ```npm create @mysten/dapp```
+- 3. Select ```react-e2e-counter```
 
 ## More Resources
 
